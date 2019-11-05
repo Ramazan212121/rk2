@@ -37,6 +37,7 @@
 	     if(isset($_GET['square'])){
 		    $s=$l*$w;
 		    echo "$s";
+	     }
 	     if(isset($_GET['value'])){
 		    $v=$l*$w*$h;
 		    echo "$v";
